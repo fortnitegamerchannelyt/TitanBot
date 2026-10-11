@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "dnd",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -23,8 +23,8 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: ".gg/aquamc", // required by Discord API, not shown in the client
-        state: "Growing Minecraft Server!",     // this is what people actually see
+        name: ".gg/gvdr", // required by Discord API, not shown in the client
+        state: "Growing GVRP Server!!",     // this is what people actually see
         type: 3,               // Custom
       },
     ],
@@ -172,10 +172,10 @@ export const botConfig = {
     startingBalance: 0,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 10000000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 1000,
 
     // Work command random payout range.
     workMin: 10,
