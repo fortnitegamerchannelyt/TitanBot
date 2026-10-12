@@ -23,8 +23,8 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: ".gg/gvc", // required by Discord API, not shown in the client
-        state: "Growing GVRP Server!!",     // this is what people actually see
+        name: ".gg/gvrv", // required by Discord API, not shown in the client
+        state: "In Development Stage - Need Ownership | 20% Complete",     // this is what people actually see
         type: 3,               // Custom
       },
     ],
